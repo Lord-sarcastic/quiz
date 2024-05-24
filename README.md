@@ -7,7 +7,7 @@ A web application for creating and taking quizzes online
 
 ### Begin
 #### Running the application
-- Clone the repo with `git clone git@git.toptal.com:screening/Ayodeji-Adeoti.git`
+- Clone the repo
 - `cd` into the repo
 - Duplicate the file named ".env.example", rename the new copy to ".env" within the same directory. You can edit the values there as you want save for the `POSTGRES_HOST` and `POSTGRES_PORT` which I do not recommend except you know what you are doing.
 - Perform migrations with `docker-compose run web python manage.py migrate`
